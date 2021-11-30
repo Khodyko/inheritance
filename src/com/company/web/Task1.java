@@ -7,7 +7,7 @@ public class Task1 extends SuperClass {
 //    }
 
     public Task1() {
-        super();
+        super();//Task 1
         String a=super.task9;
         super.task6();
     }

@@ -12,10 +12,10 @@ public class Main {
         task6Child.method();
 
 //        task1.task6();
-        SuperClass task10 = (SuperClass) new Task1();
-        if (task10 instanceof SuperClass) {
-            Task1 task11 = (Task1) task10;
-        }
+//        SuperClass task10 = (SuperClass) new Task1();
+//        if (task10 instanceof SuperClass) {
+//            Task1 task11 = (Task1) task10;
+//        }
         //Task 20
         Task20 task20=new Task20();
         task20.task20Kovariant();
@@ -34,7 +34,8 @@ public class Main {
         System.out.println(task24 instanceof Task18);
         //Task 25
         task24.task22(); //in default method interface task18
-       
+        //Task 26
+        Task26Child task26Child=new Task26Child();
 
     }
 }
